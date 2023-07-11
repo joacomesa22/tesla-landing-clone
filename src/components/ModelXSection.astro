@@ -1,0 +1,23 @@
+---
+import Section from "./Section.astro";
+---
+
+<Section
+  title="Model X"
+  subtitle="Batería interminable para viajes largos"
+  color="black"
+>
+  <div slot="footer">
+    <a
+      class="text-white font-medium text-sm border-[3px] border-white rounded px-12 py-2 inline-block bg-white/5 backdrop-blur-sm hover:text-black hover:bg-white duration-300"
+      href="#">Pedido Personalizado</a
+    >
+  </div>
+
+  <img
+    src="./modelX.avif"
+    alt="modelX"
+    class="h-full w-full object-cover object-center"
+    slot="background"
+  />
+</Section>

@@ -1,0 +1,32 @@
+---
+import Section from "./Section.astro";
+---
+
+<Section
+  title="Solar Roof"
+  subtitle="Genere energía desde su techo"
+  color="white"
+>
+  <div class="flex flex-col items-center justify-center relative" slot="footer">
+    <a
+      class="text-white font-medium text-sm border-[3px] border-white rounded px-12 py-2 inline-block bg-white/5 backdrop-blur-sm hover:text-black hover:bg-white duration-300"
+      href="#">Ordenar Ahora - 50% OFF</a
+    >
+    <div class="flex items-center gap-4 absolute -bottom-14 text-white text-xs">
+      <a href="#">Tesla 2023</a>
+      <a href="#">Privacy & Legal</a>
+      <a href="#">Vehicle Recalls</a>
+      <a href="#">Contact</a>
+      <a href="#">News</a>
+      <a href="#">Updates</a>
+      <a href="#">Locations</a>
+    </div>
+  </div>
+
+  <img
+    src="./roof.jpg"
+    alt="solar roof"
+    class="h-full w-full object-cover object-center"
+    slot="background"
+  />
+</Section>

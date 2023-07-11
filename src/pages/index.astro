@@ -1,9 +1,13 @@
 ---
 import HeroSection from "../components/HeroSection.astro";
 import LandingHeader from "../components/LandingHeader.astro";
+import ModelXSection from "../components/ModelXSection.astro";
 import ModelYSection from "../components/ModelYSection.astro";
-import Section from "../components/Section.astro";
+import ModelSSection from "../components/ModelSSection.astro";
+import Model3Section from "../components/Model3Section.astro";
 import Layout from "../layouts/Layout.astro";
+import PowerwallSection from "../components/PowerwallSection.astro";
+import RoofSection from "../components/RoofSection.astro";
 ---
 
 <Layout title="Tesla Clone">
@@ -16,10 +20,19 @@ import Layout from "../layouts/Layout.astro";
       <ModelYSection />
     </div>
     <div class="snap-center">
-      <HeroSection />
+      <Model3Section />
     </div>
     <div class="snap-center">
-      <ModelYSection />
+      <ModelXSection />
+    </div>
+    <div class="snap-center">
+      <ModelSSection />
+    </div>
+    <div class="snap-center">
+      <PowerwallSection />
+    </div>
+    <div class="snap-center">
+      <RoofSection />
     </div>
   </main>
 </Layout>

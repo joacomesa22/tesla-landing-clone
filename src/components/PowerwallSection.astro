@@ -1,0 +1,27 @@
+---
+import Section from "./Section.astro";
+---
+
+<Section
+  title="Powerwall"
+  subtitle="Carga completa en menos de 12hs"
+  color="black"
+>
+  <div class="flex justify-center gap-4" slot="footer">
+    <a
+      class="text-white font-medium text-sm border-[3px] border-white rounded px-12 py-2 inline-block bg-white/5 backdrop-blur-sm hover:text-black hover:bg-white duration-300"
+      href="#">Ordenar Ahora</a
+    >
+    <a
+      class="text-white bg-black font-medium text-sm border-[3px] border-black rounded px-12 py-2 inline-block hover:bg-[#232323] hover:border-[#232323] duration-300"
+      href="#">Conocer Más</a
+    >
+  </div>
+
+  <img
+    src="./powerwall.jpg"
+    alt="powerwall"
+    class="h-full w-full object-cover object-center"
+    slot="background"
+  />
+</Section>
